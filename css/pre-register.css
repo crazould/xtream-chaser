@@ -1,0 +1,82 @@
+main{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 2rem;
+    margin-top: 0;
+}
+
+.wrapper{
+    padding-top: 2%;
+}
+
+section{
+    margin-top: 0;
+    width: 60%;
+}
+
+.input-group {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 100%;
+    text-align: left;
+}
+
+.input-group > label{
+    font-family: my-font;
+    display: inline-block;
+    margin-bottom: 1.8%;
+    margin-left: 1%;
+}
+
+#submit{
+    cursor: pointer;
+    font-family: my-font-bold;
+    font-weight: bolder;
+    border-style: none;
+    transition: 100ms;
+    background-color: rgb(236, 234, 234);
+}
+
+#submit:hover{
+    background-color: rgb(211, 211, 211);
+    transition: 100ms;
+}
+
+#submit:active{
+    background-color: rgb(145, 145, 145);
+    transition: 100ms;
+}
+
+input[type=text], 
+input[type=password], 
+input[type=date], 
+button[type=submit], 
+select{
+    outline: 0;
+    display: inline-block;
+    padding: 1% 2% 1% 2%;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    border-style: none;
+}
+
+.gender-group{
+    padding-left: 3%;
+}
+
+#error-message{
+    font-family: my-font-bold;
+    font-weight: bolder;
+    color: rgb(240, 65, 65);
+}
+
+#success-message{
+    font-family: my-font-bold;
+    font-weight: bolder;
+    color: rgb(30, 194, 30);
+}
