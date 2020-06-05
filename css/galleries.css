@@ -133,6 +133,27 @@ section.grid-layout > .img-10{
     background-size: 100% 100%;
 }
 
+.close-modal{
+    display: inline-block;
+    position: absolute;
+    color: #f5f5f5;
+    background-color: 	#DC143C;
+    right: 2%;
+    top: 2.25%;
+    cursor: pointer;
+    font-family: my-font-bold;
+    font-weight: bolder;
+    transition: 300ms;
+    padding: 0.5%;
+    border-radius: 0.2rem;
+}
+.close-modal:hover{
+    transition: 300ms;
+    font-size: 1.20rem;
+    right: 1.5%;
+    top: 1.5%;
+}
+
 
 
 

@@ -30,7 +30,7 @@ for(let i = 3; i<13; i++){
 
 }
 
-$(`.lightbox`).click(() => {
+$(`.close-modal`).click(() => {
     $(`.lightbox`).css({
         display: 'none'
     })
