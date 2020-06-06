@@ -1,17 +1,16 @@
 extreme chaser
 
-• pages :
+- pages :
     home, 
     galleries,
     characters, 
     lore, 
     pre-register
 
-• Background https://hipwallpaper.com/chase-wallpapers/
-• Amy https://grandchase.fandom.com/wiki/Amy/Grand_Chase_Dimensional_Chaser?file=Grand_Chase_for_kakao_Amy_03.png
-• Lire https://grandchase.fandom.com/wiki/Lire/Grand_Chase_Dimensional_Chaser?file=Grand_Chase_for_kakao_Lire_Eryuell_03.png
+- Background https://hipwallpaper.com/chase-wallpapers/
+- Amy https://grandchase.fandom.com/wiki/Amy/Grand_Chase_Dimensional_Chaser?file=Grand_Chase_for_kakao_Amy_03.png
+- Lire https://grandchase.fandom.com/wiki/Lire/Grand_Chase_Dimensional_Chaser?file=Grand_Chase_for_kakao_Lire_Eryuell_03.png
 all background https://grandchase.fandom.com/wiki/Story_Timeline
-
 
 - characters:
  https://grandchase.fandom.com/wiki/Sieghart/Grand_Chase_Dimensional_Chaser
