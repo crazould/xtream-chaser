@@ -158,42 +158,6 @@ a{
     width: 100%;
 }
 
-.media-logo{
-    width: 3vw;
-    height: 6vh;
-    margin-left: 4%;
-    margin-right: 4%;
-    -webkit-filter: grayscale(1);
-    transition: 300ms;
-    cursor: pointer;
-
-}
-
-.media-logo:hover{
-    -webkit-filter: grayscale(0);
-    transition: 200ms;
-}
-
-.line{
-    background-image: url("../assets/line.png");
-    background-size: 100% 100%;
-}
-
-.instagram{
-    background-image: url("../assets/instagram.png");
-    background-size: 100% 100%;
-}
-
-.linkedin{
-    background-image: url("../assets/linkedin.png");
-    background-size: 100% 100%;
-}
-
-.whatsapp{
-    background-image: url("../assets/whatsapp.png");
-    background-size: 100% 100%;
-}
-
 .logo-group{
     margin-top: 2%;
     margin-bottom: 4%;
@@ -202,6 +166,46 @@ a{
     align-items: center;
     width: 100%;
 }
+
+.logo-group > a{
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.media-logo{
+    width: 100%;
+    height: 100%;
+    -webkit-filter: grayscale(1);
+    transition: 300ms;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+
+.media-logo:hover{
+    -webkit-filter: grayscale(0);
+    transition: 200ms;
+}
+
+.facebook{
+    background-image: url("../assets/facebook.png");
+}
+
+.instagram{
+    background-image: url("../assets/instagram.png");
+}
+
+.linkedin{
+    background-image: url("../assets/linkedin.png");
+}
+
+.twitter{
+    background-image: url("../assets/twitter.png");
+}
+
+
 
 footer{
     padding-top: 1%;
@@ -238,5 +242,61 @@ section{
     margin-top: 3%;
     margin-bottom: 3%;
 }
+
+label, p{
+    cursor: default;
+}
   
-  
+@media screen and (max-width: 800px) {
+    
+
+    .menu-btn, .menu-item{
+        font-size: 0.9rem ;
+    }
+
+    .menu{
+        width: 15%;
+    }
+
+
+    .logo-group > a{
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .logo-jumbo{
+        margin-top: 5%;
+        font-size: 6.5rem;
+    }
+
+    .line-jumbo{
+        font-size: 1.25rem;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+
+    .menu{
+        width: 25%;
+        font-size: 0.5rem;
+        padding-right: 5%;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .logo-jumbo{
+        text-align: center;
+    }
+
+    .line-jumbo{
+        font-size: 1rem;
+    }
+
+}
