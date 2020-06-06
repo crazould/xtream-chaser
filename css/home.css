@@ -11,8 +11,7 @@
  .slide img{
     width: 100%;
     height: auto;
-    border-radius: 2rem;
-    box-shadow: 0.25rem 0.25rem 0.5rem #212121;
+    box-shadow: 0.65rem 0.65rem 0.5rem black;
 }
   
 .slide-line {
@@ -36,8 +35,7 @@
     padding-right: 1%;
     font-size: 4rem;
     bottom: 42%;
-    border-radius: 1rem;
-
+    outline: 0;
 }
 
 .image-slider > .right {
@@ -48,6 +46,19 @@
     right: -10%;
 }
 
-section > p{
-    font-family: Arial, Helvetica, sans-serif;
+section{
+    background-color: #f5f5f5;
+    color: black;
+    padding: 2%;
+    padding-top: 0;
+    box-shadow: 0.65rem 0.65rem 0.5rem black;
 }
+
+section > p{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+section > h1{
+    padding-top: 1.5%;
+}
+

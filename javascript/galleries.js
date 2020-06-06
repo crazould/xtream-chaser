@@ -1,21 +1,22 @@
 let img_url
 
-for(let i = 3; i<13; i++){
 
-    $(`.img-${i}`).mouseenter(() => {
-        $(`.img-${i}`).animate({
+for(let i = 1; i <= $('.img-container').length; i++){
+
+    $(`.img-container:nth-child(${i})`).mouseenter(() => {
+        $(`.img-container:nth-child(${i})`).animate({
             bottom: '0.70rem'
-        })
+        },250)
     })
     
-    $(`.img-${i}`).mouseleave(() => {
-        $(`.img-${i}`).animate({
+    $(`.img-container:nth-child(${i})`).mouseleave(() => {
+        $(`.img-container:nth-child(${i})`).animate({
             bottom: '0rem'
-        })
+        },250)
     })
 
-    $(`.img-${i}`).click(() => {
-        img_url = $(`.img-${i}`).css("background-image");
+    $(`.img-container:nth-child(${i})`).click(() => {
+        img_url = $(`.img-container:nth-child(${i})`).css("background-image");
 
         $(`.lightbox`).css({
             display: 'block'
