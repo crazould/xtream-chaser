@@ -11,6 +11,7 @@ html{
     font-size: 16px;
 }
 
+
 body{
     margin: 0;
     padding: 0;
@@ -25,6 +26,10 @@ header{
     position: absolute;
     margin-left: 4%;
     margin-right: 2%;
+}
+
+p{
+    text-align: justify;
 }
 
 .logo{
@@ -248,7 +253,6 @@ label, p{
 }
   
 @media screen and (max-width: 800px) {
-    
 
     .menu-btn, .menu-item{
         font-size: 0.9rem ;
