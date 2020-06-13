@@ -111,5 +111,9 @@ select{
     .input-group{
         margin-bottom: 10%;
     }
+
+    section{
+        width: 95%;
+    }
     
 }
