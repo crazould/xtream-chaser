@@ -60,11 +60,6 @@ p{
     transition: 250ms;
 }
 
-.menu-btn:hover{
-    font-size: 1.25rem;
-    transition: 250ms;
-    cursor: pointer;
-}
 
 
 a{
@@ -92,11 +87,7 @@ a{
     margin-bottom: 8%;
 }
 
-.menu-item:hover{
-    font-size: 1.25rem;
-    transition: 250ms;
-    cursor: pointer;
-}
+
 
 
 .parallax{
@@ -189,10 +180,7 @@ a{
     background-size: 100% 100%;
 }
 
-.media-logo:hover{
-    -webkit-filter: grayscale(0);
-    transition: 200ms;
-}
+
 
 .facebook{
     background-image: url("../assets/facebook.png");
@@ -251,7 +239,29 @@ section{
 label, p{
     cursor: default;
 }
-  
+
+@media screen and (min-width: 800px) {
+
+    .menu-item:hover{
+        font-size: 1.25rem;
+        transition: 250ms;
+        cursor: pointer;
+    }
+
+    .menu-btn:hover{
+        font-size: 1.25rem;
+        transition: 250ms;
+        cursor: pointer;
+    }
+
+    .media-logo:hover{
+        -webkit-filter: grayscale(0);
+        transition: 200ms;
+    }
+
+}
+
+
 @media screen and (max-width: 800px) {
 
     .menu-btn:hover{
@@ -284,12 +294,16 @@ label, p{
         font-size: 1.25rem;
     }
 
+    .media-logo{
+        -webkit-filter: grayscale(0);
+    }
+
 }
 
 @media screen and (max-width: 430px) {
 
     .menu{
-        width: 25%;5
+        width: 25%;
         margin-right: 15%;
     }
 
