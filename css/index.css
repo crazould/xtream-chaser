@@ -39,7 +39,7 @@ p{
     width: 90%;
     color: white;
     padding-left: 2%;
-    background-image: url("../logo.png");
+    background-image: url("../assets/logo.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -262,7 +262,6 @@ label, p{
         width: 15%;
     }
 
-
     .logo-group > a{
         margin-left: 6%;
         margin-right: 6%;
@@ -286,9 +285,18 @@ label, p{
 @media screen and (max-width: 430px) {
 
     .menu{
-        width: 25%;
-        font-size: 0.5rem;
-        padding-right: 5%;
+        width: 25%;5
+        margin-right: 15%;
+    }
+
+    .logo{
+        width: 75%;
+    }
+
+    div.menu-item{
+        
+        font-size: 0.8rem;
+
     }
 
     h1{
