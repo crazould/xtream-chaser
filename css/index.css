@@ -254,14 +254,18 @@ label, p{
   
 @media screen and (max-width: 800px) {
 
+    .menu-btn:hover{
+        font-size: 0.8rem;
+        transition: 250ms;
+        cursor: pointer;
+    }
+
     .menu-btn, .menu-item{
         font-size: 0.9rem ;
     }
-
     .menu{
         width: 15%;
     }
-
     .logo-group > a{
         margin-left: 6%;
         margin-right: 6%;
